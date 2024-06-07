@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="images/dado/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roll dice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <main id='tela-principal'>
+        <h1>10 lados</h1>
+        <section class='conteudo'>
+        <p id='sorteado' class='centro'>?</p>
+        <figure>
+            <img
+                src="100-faces/0.png"
+                alt="Dado"
+                id='imgDado'
+            />
+        </figure>
+    </section>
+    <p class='centro'><button id='btnSortear'>Sortear</button></p>
+</main>
+
+<audio preload
+id='dadoRolando'
+src="assets/dado-rolando.mp3" type="audio/mpeg">
+</audio>
+
+<div id="container">
+    <ul>
+    
+        <li><a href="dado2L.html"><img src="100-faces/2.png" alt="" id="imglink"></a></li>
+        <li><a href="dado3L.html"><img src="100-faces/3.png" alt="" id="imglink"></a></li>
+        <li><a href="dado4L.html"><img src="100-faces/4.png" alt="" id="imglink"></a></li>
+        <li><a href="dado6L.html"><img src="100-faces/6.png" alt="" id="imglink"></a></li>
+        <li><a href="dado8L.html"><img src="100-faces/8.png" alt="" id="imglink"></a></li>
+        <li><a href="dado20L.html"><img src="100-faces/20.png" alt="" id="imglink"></a></li>
+        <li><a href="dado30L.html"><img src="100-faces/30.png" alt="" id="imglink"></a></li>
+        <li><a href="dado50L.html"><img src="100-faces/50.png" alt="" id="imglink"></a></li>
+        <li><a href="dado100L.html"><img src="100-faces/100.png" alt="" id="imglink"></a></li>
+        
+    </ul>
+</div>
+
+<script src="script10L.js"></script>
+
+</body>
+</html>
